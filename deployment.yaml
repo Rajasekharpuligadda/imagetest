@@ -16,7 +16,7 @@ spec:
         - name: harbor-eks-cred 
       containers:
       - name: sp4-app-test
-        image: imagerepo.vaw.ai/backstage/sp7-app:v1 
+        image: imagerepo.vaw.ai/backstage/sp8-app:v1 
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
